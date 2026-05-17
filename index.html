@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Odin Project - Sign Up Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="logoSection">
+        <div id="logoHolder">
+            <img src="assets/logo.png" width="100" height="125">
+            <h1>Odin</h1>
+        </div>
+        <h3>Photo by Halie West on Unsplash</h3>
+    </div>
+    <div id="informationSection">
+        <div id="information">
+            <h2>
+                This is not a real online service! You know you need something like
+                this in your life to help you realize your deepest dreams.
+            </h2>
+            <h2>Sign up <em>now</em> to get started</h2>
+            <div id="third">
+                <h2>You <em>know</em> you want to.</h2>
+            </div>
+        </div>
+        
+        <div id="form">
+
+            <h1>Let's do this!</h1>
+
+            <form action="" method="post">
+
+                <div class="roboto-mono-font" id="firstName">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="txtFirstName" minlength="3" maxlength="25">
+                </div>
+
+                <div class="roboto-mono-font" id="lastName">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="txtLastName" minlength="3" maxlength="25">
+                </div>
+
+                <div class="roboto-mono-font" id="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="txtEmail">
+                </div>
+
+                <div class="roboto-mono-font" id="phoneNumber">
+                    <label for="phoneNumber">First Name</label>
+                    <input type="text" id="txtPhoneNumber">
+                </div>
+
+                <div class="roboto-mono-font" id="password">
+                    <label for="password">Password</label>
+                    <input type="password" id="txtPassword" minlength="8">
+                </div>
+
+                <div class="roboto-mono-font" id="conPassword">
+                    <label for="con_password">Confirm Password</label>
+                    <input type="Password" id="txtConPassword" minlength="8">
+                </div>
+            </form>
+        </div>
+        <div id="complete">
+            <button>Create Account</button>
+            <h2>Already have an account? <span>Log in</span></h2>
+        </div>
+    </div>
+</body>
+</html>
